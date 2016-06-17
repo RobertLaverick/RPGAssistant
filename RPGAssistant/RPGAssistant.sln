@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BDAAB212-56EE-471D-B40E-6A11DC2D9FA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C2CC150-E348-47D5-884C-65D0D9F1E2ED}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RPGAssistant", "src\RPGAssistant\RPGAssistant.xproj", "{18893525-988D-4F19-90FD-FF1CC40A85FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18893525-988D-4F19-90FD-FF1CC40A85FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18893525-988D-4F19-90FD-FF1CC40A85FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18893525-988D-4F19-90FD-FF1CC40A85FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18893525-988D-4F19-90FD-FF1CC40A85FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18893525-988D-4F19-90FD-FF1CC40A85FC} = {BDAAB212-56EE-471D-B40E-6A11DC2D9FA4}
+	EndGlobalSection
+EndGlobal

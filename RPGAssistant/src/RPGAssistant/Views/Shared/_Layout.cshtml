@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>RPG Assistant</title>
+
+</head>
+<body>
+<div>
+    <script type="text/javascript" src="~/node_modules/react/react.js"></script>
+    <script type="text/javascript" src="~/node_modules/react/react-dom.js"></script>
+    <script src="@Url.Content("~/Scripts/core.jsx")"></script>
+    @RenderBody()
+</div>
+    @RenderSection("scripts", required: false);
+</body>
+</html>
